@@ -1,7 +1,7 @@
 # Control_Modern
 
 # Ball and Plate Control  
-### Modern Control Course Project – Amirkabir University of Technology
+### Modern Control Course Project 
 
 ## Overview
 This project addresses one of the most well–known under–actuated benchmark problems in control engineering: the **Ball and Plate System**.
