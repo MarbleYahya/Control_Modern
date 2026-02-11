@@ -68,12 +68,7 @@ Linearization is performed around the equilibrium:
 
 
 
-Jacobian matrices are computed in MATLAB, yielding:
-
-\[
-\dot{x} = Ax + Bu  
-y = Cx + Du
-\]
+Jacobian matrices are computed in MATLAB.
 
 ---
 
@@ -106,13 +101,8 @@ To remove steady-state tracking error:
 are designed and compared.
 
 ### LQR – Optimal Control
-We minimize:
 
-\[
-J = \int (x^T Q x + u^T R u) dt
-\]
-
-to obtain a balance between performance and control effort.
+The LQR controller is obtained by minimizing a quadratic performance index that penalizes deviations of the system states from the desired equilibrium while also limiting the magnitude of the control inputs. This formulation provides a systematic trade-off between tracking performance and control effort.
 
 ---
 
